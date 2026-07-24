@@ -1,0 +1,54 @@
+problem create format
+{
+  "title": "Example Problem Title",
+  "description": "Detailed description of the problem...",
+  "difficulty": "easy", // Can be: "easy", "medium", or "hard"
+  "tags": "array",      // Can be: "array", "linkedList", "graph", or "dp"
+  
+  "visibleTestCases": [
+    {
+      "input": "[2,7,11,15]\n9",
+      "output": "[0,1]",
+      "explanation": "Because nums[0] + nums[1] == 9, we return [0, 1]."
+    }
+    // ... can contain more objects, must have at least 1
+  ],
+
+  "hiddenTestCases": [
+    {
+      "input": "[3,2,4]\n6",
+      "output": "[1,2]"
+    }
+    // ... can contain more objects, must have at least 1
+  ],
+
+  "startCode": [
+    {
+      "language": "C++",
+      "initialCode": "class Solution {\npublic:\n    vector<int> twoSum(vector<int>& nums, int target) {\n        \n    }\n};"
+    },
+    {
+      "language": "Java",
+      "initialCode": "class Solution {\n    public int[] twoSum(int[] nums, int target) {\n        \n    }\n}"
+    },
+    {
+      "language": "JavaScript",
+      "initialCode": "/**\n * @param {number[]} nums\n * @param {number} target\n * @return {number[]}\n */\nvar twoSum = function(nums, target) {\n    \n};"
+    }
+  ],
+
+  "referenceSolution": [
+    {
+      "language": "C++",
+      "completeCode": "class Solution {\npublic:\n    // Full working C++ code here\n};"
+    },
+    {
+      "language": "Java",
+      "completeCode": "class Solution {\n    // Full working Java code here\n}"
+    },
+    {
+      "language": "JavaScript",
+      "completeCode": "var twoSum = function(nums, target) {\n    // Full working JS code here\n};"
+    }
+  ]
+}
